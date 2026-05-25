@@ -1,5 +1,6 @@
-numero = int(input("Informe o número da tabuada: "))
- 
-print("******************************")
-for i in range(1, 11):
-    print(f"{i} x {numero} = {i * numero}")
+numero = int(input("digite um número: "))
+i = 1
+
+while i <= 10:
+    print(f"{numero} x {i} = {numero * i}")
+    i += 1
